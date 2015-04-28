@@ -51,7 +51,7 @@
 			return false;
 		});
 	}
-
+	//line below looks for the parent of what is being selected which is task-list and waits for a click and looks for a delete-button. once clicked it runs the function
 	$(".task-list").on("click", ".delete-button", function() {
 			var current_element = $(this);
 			var task_id = $(this).attr('id');
